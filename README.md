@@ -9,10 +9,10 @@ The platform provides secure authentication, instant messaging, typing indicator
 ## 🚀 Live Demo Links
 
 ### 🔹 **Frontend (Vercel Deployment)**  
-🌐 Live URL: https://your-frontend-url.vercel.app  
+🌐 Live URL: https://deployment-and-devops-essentials-wa-drab.vercel.app  
 
 ### 🔹 **Backend (Render Deployment)**  
-🌐 API Base URL: https://your-backend-url.onrender.com  
+🌐 API Base URL: https://deployment-and-devops-essentials-waziri.onrender.com
 
 ---
 
