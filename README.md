@@ -71,3 +71,18 @@ The platform provides secure authentication, instant messaging, typing indicator
 
 ## 📁 Project Structure
 
+chumbi-nyiri/
+├── client/ # React Frontend
+│ ├── src/components/ # UI Components
+│ ├── src/pages/ # Page Views
+│ ├── public/ # Assets
+│ └── tailwind.config.js
+│
+└── server/ # Node.js Backend
+├── src/config/ # Database config
+├── src/controllers/ # API logic
+├── src/models/ # Mongoose models
+├── src/routes/ # API endpoints
+├── src/middleware/ # Auth middleware
+└── src/server.js # App entry point
+
