@@ -86,3 +86,77 @@ chumbi-nyiri/
 ├── src/middleware/ # Auth middleware
 └── src/server.js # App entry point
 
+### 🔹 **Backend (Render Deployment)**  
+🌐 API Base URL: https://your-backend-url.onrender.com  
+
+---
+
+## 🧩 Tech Stack
+
+### **Frontend**
+- React.js + Vite  
+- TailwindCSS  
+- ShadCN UI  
+- Axios  
+- Socket.io Client  
+
+### **Backend**
+- Node.js  
+- Express.js  
+- MongoDB + Mongoose  
+- JSON Web Tokens (JWT)  
+- Socket.io Server  
+- Bcrypt  
+
+### **DevOps & Deployment**
+- **Render** → Backend hosting  
+- **Vercel** → Frontend hosting  
+- GitHub → Version Control  
+
+---
+
+## ⚡ Features
+
+### 🗨️ Real-Time Messaging
+- Instant communication powered by **Socket.io**
+- Typing indicators
+- Online/offline status tracking
+
+### 👤 User Authentication
+- JWT-based authentication  
+- Secure login & registration  
+- Protected routes
+
+### 💬 Conversation Management
+- One-to-one messaging  
+- Organized conversation list  
+- Message history saved in MongoDB
+
+### 🎨 Modern User Interface
+- Clean layout inspired by messaging apps  
+- Mobile responsive  
+- Beautiful UI powered by **ShadCN + Tailwind**
+
+### 🔒 Secure Backend
+- Token validation middleware  
+- Role-ready architecture  
+- Input validation and error handling
+
+---
+
+## 📁 Project Structure
+
+chumbi-nyiri/
+├── client/ # React Frontend
+│ ├── src/components/ # UI Components
+│ ├── src/pages/ # Page Views
+│ ├── public/ # Assets
+│ └── tailwind.config.js
+│
+└── server/ # Node.js Backend
+├── src/config/ # Database config
+├── src/controllers/ # API logic
+├── src/models/ # Mongoose models
+├── src/routes/ # API endpoints
+├── src/middleware/ # Auth middleware
+└── src/server.js # App entry point
